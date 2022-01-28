@@ -2,9 +2,9 @@ import UseCallbackHook from "./predefined-hooks/UseCallbackHook";
 import UseContextHook from "./predefined-hooks/usecontext/UseContextHook";
 import UseEffectHook from "./predefined-hooks/UseEffecfHook";
 import UseLayoutEffectHook from "./predefined-hooks/UseLayoutEffectHook";
-// import UseMemoHook from "./predefined-hooks/UseMemoHook";
+import UseMemoHook from "./predefined-hooks/UseMemoHook";
 import TodoReducer from "./predefined-hooks/usereducer/TodoReducer";
-// import UseReducerHook from "./predefined-hooks/usereducer/UseReducerHook";
+import UseReducerHook from "./predefined-hooks/usereducer/UseReducerHook";
 import UseRefHook from "./predefined-hooks/UseRefHook";
 import UseStateHook from "./predefined-hooks/UseStateHook";
 
@@ -20,7 +20,7 @@ function App() {
       <hr />
       <UseStateHook />
       <hr />
-      {/* <UseReducerHook /> */}
+      <UseReducerHook />
       <hr />
       <UseCallbackHook />
       <hr />
@@ -28,7 +28,7 @@ function App() {
       <hr />
       <UseLayoutEffectHook />
       <hr />
-      {/* <UseMemoHook /> */}
+      <UseMemoHook />
       <hr />
       <UseContextHook />
       <hr />
